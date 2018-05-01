@@ -17,10 +17,9 @@
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
     <!-- bootstrap minified css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- animation css -->
-    <link rel="stylesheet" type="text/css" href="assets/css/animate.css">
+    <!-- animate on scroll css library -->
+    <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
     <!-- custom css -->
-    <link rel="stylesheet" type="text/css" href="exp.css">
     <link rel="stylesheet" type="text/css" href="assets/css/st.css">
 </head>
 
@@ -53,7 +52,7 @@
     <!-- end of the header -->
     <div id="home">
         <div class="layer-home">
-            <div class="container land-cont">
+            <div data-aos="zoom-in" data-aos-duration="1000" class="container land-cont">
                 <img class="img-circle" src="assets/img/pic.jpg" alt="Nazmul Shuvo">
                 <h1>Hello, I am Nazmul Islam Shuvo</h1>
                 <p>Web, Mobile &amp; AR/VR Developer</p>
@@ -67,9 +66,12 @@
     <div id="services">
         <div class="container">
             <section class="services">
-                <h2 class="sec-title">What I Do?</h2>
-                <p class="sec-des">I specialize in creating beautiful custom-built websites and applications for clients ranging from individuals and small all the way to large enterprise corporations.</p>
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
+                <div data-aos="zoom-in" data-aos-duration="1000">
+                    <h2 class="sec-title">What I Do?</h2>
+                    <p class="sec-des">I specialize in creating beautiful custom-built websites and applications for clients ranging from individuals and small all the way to large enterprise corporations.</p>
+                </div>
+                <!-- end of the aniamted div -->
+                <div data-aos="fade-up" data-aos-duration="1200" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
                     <div class="sep">
                         <img src="assets/icons/web.png" alt="WEB DEVELOPMENT">
                         <h3 class="ser-title">Web</h3>
@@ -77,15 +79,15 @@
                     </div>
                 </div>
                 <!-- end of individual service gig -->
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
+                <div data-aos="fade-up" data-aos-duration="1200" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
                     <div class="sep">
                         <img src="assets/icons/mobile.png" alt="MOBILE DEVELOPMENT">
                         <h3 class="ser-title">Mobile</h3>
                         <p>Embracing the latest technology and trends, I build native and responsive Mobile Apps (Android) to leverage your customer reachability and enhanced flexibility. </p>
-                    </div>
+                    </div> 
                 </div>
                 <!-- end of individual service gig -->
-                <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
+                <div data-aos="fade-up" data-aos-duration="1200" class="col-lg-4 col-md-4 col-sm-12 col-xs-12 ind-ser">
                     <div class="sep">
                         <img src="assets/icons/ar_vr.png" alt="AR/VR DEVELOPMENT">
                         <h3 class="ser-title">AR/VR</h3>
@@ -93,7 +95,7 @@
                     </div>
                 </div>
                 <!-- end of individual service gig -->
-                <div class="workflow">
+                <div data-aos="zoom-in" data-aos-duration="1000" class="workflow">
                     <!-- <img class="img-responsive workflow-img" src="assets/img/wrk-exp.png"> -->
                     <div class="col-lg-2 col-md-2 col-sm-4 col-xs-6 workflow-ind">
                         <div class="workflow-spt">
@@ -153,7 +155,7 @@
     <!-- end of the services -->
     <div id="about">
         <div class="layer">
-            <div class="about-me">
+            <div data-aos="zoom-out" data-aos-duration="1000" class="about-me">
                 <div class="container">
                     <h2 class="sec-title">About Me</h2>
                     <p class="about-des">
@@ -268,8 +270,8 @@
     <!-- end of about me -->
     <div id="clients">
         <div class="container">
-            <h2 class="sec-title">Clients</h2>
-            <div class="col-lg-6">
+            <h2 data-aso="zoom-in" data-aos-duration="1000" class="sec-title">Clients</h2>
+            <div data-aos="fade-up" data-aos-duration="1100" class="col-lg-6">
                 <div class="clients-item">
                     <img class="img-responsive" src="assets/img/clients/lse.png" alt="Lone Star Energy">
                     <div class="clients-info">
@@ -283,7 +285,7 @@
                 <!-- end of the project item -->
             </div>
             <!-- end of ind project item -->
-            <div class="col-lg-6">
+            <div data-aos="fade-up" data-aos-duration="1100" class="col-lg-6">
                 <div class="clients-item">
                     <img class="img-responsive" src="assets/img/clients/octal.png" alt="Octal informatics">
                     <div class="clients-info">
@@ -297,7 +299,7 @@
                 <!-- end of the project item -->
             </div>
             <!-- end of ind project item -->
-            <div class="col-lg-6">
+            <div data-aos="fade-up" data-aos-duration="1100" class="col-lg-6">
                 <div class="clients-item">
                     <img class="img-responsive" src="assets/img/clients/vizier.png" alt="Vizier">
                     <div class="clients-info">
@@ -311,7 +313,7 @@
                 <!-- end of the project item -->
             </div>
             <!-- end of ind project item -->
-            <div class="col-lg-6">
+            <div data-aos="fade-up" data-aos-duration="1100" class="col-lg-6">
                 <div class="clients-item">
                     <img class="img-responsive" src="assets/img/clients/lsh.png" alt="Lone Star Hospitality">
                     <div class="clients-info">
@@ -331,7 +333,7 @@
     <!-- end of the projects -->
     <div id="contact">
         <div class="layer-home">
-            <div class="contact-infos">
+            <div data-aos="zoom-in-left" data-aos-duration="1000" class="contact-infos">
                 <div class="container">
                     <h2>Reach Me</h2>
                     <h5>Send me an <a href="mailto:nisgeek@gmail.com">e-mai</a></h5>
@@ -355,21 +357,17 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!-- Latest compiled JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <!-- animate on scroll javascript -->
-    <!-- <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script> -->
-    <!-- scrollmagic js import -->
-    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
-    <!-- optional shits for scrollmagic -->
-    <script src="js/scrollmagic/uncompressed/plugins/debug.addIndicators.js"></script>
+    <!-- animate on scroll js library -->
+    <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
     <!-- custom css for interactivity -->
     <script src="assets/js/sc.js"></script>
 
-    <!-- <script type="text/javascript">
+    <script>
         $(function() {
             AOS.init();
         });
 
-    </script> -->
+    </script>
 
 
 </body>
