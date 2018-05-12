@@ -124,6 +124,7 @@ Header Footer and navigation
 .navbar-default .navbar-nav > li > a{
 	color: rgba(255, 255, 255, .7);
 	line-height: 5;
+	font-weight: bold;
 	text-transform: uppercase;
 	font-size: 1.2em;
 }
@@ -161,6 +162,7 @@ Header Footer and navigation
 .nav-scrolled .navbar-nav > li > a{
 	color: rgba(255, 255, 255, .8);
 	line-height: 3;
+	font-weight: bold;
 }
 
 .nav-scrolled .navbar-brand:hover{
