@@ -427,6 +427,7 @@ clients Section
 }
 
 .clients-item{
+	border-radius: 30px;
 	padding: 15px 0;
 	text-align: center;
 	background: rgba(255, 255, 255, .6);
