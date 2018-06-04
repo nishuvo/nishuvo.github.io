@@ -85,3 +85,7 @@ $('.clickedNav').click(function() {
   });
 
 
+// get current year dynamically
+document.getElementById("currentYear").innerHTML = new Date().getFullYear();
+
+
