@@ -11,7 +11,7 @@ General styling
 
 Fonts that I am using
 
-    
+
 
     font-family: 'Open Sans', sans-serif;
 
@@ -21,15 +21,12 @@ Fonts that I am using
 
 
 
-Colors that I want to use in this whole template 
+Colors that I want to use in this whole template
 
-    Backgrounds: 
+    Backgrounds:
 
     #ffad39
 
-
-    Fonts: 
-    
 
 */
 
@@ -104,12 +101,12 @@ a:hover{
 }
 
 /* ------------------------------------------------------------
-Header Footer and navigation 
+Header Footer and navigation
 ------------------------------------------------------------ */
 
 .navbar-default{
 	background-color: transparent;
-	border: none; 
+	border: none;
 }
 
 .navbar-brand{
@@ -154,7 +151,7 @@ Header Footer and navigation
 
 .nav-scrolled{
 	background-color: #ffad39;
-	border: none; 
+	border: none;
 	border-bottom: 2px solid #fff;
 }
 
@@ -171,7 +168,7 @@ Header Footer and navigation
 }
 
 .nav-scrolled .navbar-nav > li > a:hover{
-	color: rgba(255, 255, 255, 1);	
+	color: rgba(255, 255, 255, 1);
 	background-color: rgba(0, 0, 0, 1);
 }
 
@@ -184,8 +181,8 @@ Header Footer and navigation
 	text-align: center;
 }
 
-/* 
-Solved issues that came on mobile 
+/*
+Solved issues that came on mobile
 */
 @media only screen and (max-width: 768px){
 	.navbar-toggle{
@@ -195,7 +192,7 @@ Solved issues that came on mobile
 	.nav-scrolled .navbar-brand{
 		margin-top: 5px !important;
 	}
-	
+
 	.nav-scrolled .navbar-toggle{
 		margin-top: 15px !important;
 	}
@@ -220,7 +217,7 @@ footer{
 
 .footer{
 	padding: 20px;
-	border-top: 2px solid #fff; 
+	border-top: 2px solid #fff;
 }
 
 .foot-cont{
@@ -267,7 +264,7 @@ Home section
 }
 
 .land-cont h1{
-	font-size: 2.8em;	
+	font-size: 2.8em;
 	line-height: 2;
 }
 
@@ -344,7 +341,7 @@ Services Section
 }
 
 .ind-ser{
-		margin-top: 15px; 		
+		margin-top: 15px;
 }
 
 .ind-ser img{
@@ -470,41 +467,71 @@ Reach Me section
 	background-attachment: fixed;
 	background-position: center;
 }
-
-.contact-infos{
-	display: table-cell;
-	vertical-align: middle;
+.reachMe{
+  margin: 0 auto;
+  padding: 60px 0;
 }
 
-.contact-infos h2{
-	color: #fff;
-	font-weight: 600;
-	font-size: 3em;
-	padding: 20px 0;
+#response{
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  max-width: 320px;
+  color: #fff;
 }
 
-.contact-infos h5{
-	color: rgba(255, 255, 255, 1);
-	line-height: 1.8;
-	font-size: 2.2em;
+form{
+  margin: 0 auto;
+  max-width: 700px;
 }
 
-.contact-infos a{
-	color: rgba(255, 255, 255, .6);
+label{
+  color: #fff;
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+}
+input, textarea{
+  width: 100%;
+  background: rgba(51,51,51, .8);
+  color: #fff;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px #ffad39;
 }
 
-.contact-infos a:hover{
-	color: rgba(255, 255, 255, 1);
+input{
+  height: 50px;
+  padding: 5px 15px;
 }
+
+textarea{
+  height: 200px;
+  padding: 15px;
+  font-size: 1.3em;
+}
+
+#submit{
+  width: 100px;
+  text-align: center;
+  padding: 2px !important;
+  font-weight: 700;
+  margin: 15px 0;
+}
+
+#submit:hover{
+  background: #ffad39;
+}
+
 
 /* ------------------------------------------------------------
-Responsiveness for mobile 
+Responsiveness for mobile
 ------------------------------------------------------------ */
 @media only screen and (max-width: 577px){
 	.sec-title{
 		font-size: 1.7em;
 	}
-	
+
 	/* ----------------------------------
 	Home section
 	---------------------------------- */
@@ -514,7 +541,7 @@ Responsiveness for mobile
 	}
 
 	.land-cont h1{
-		font-size: 2em;	
+		font-size: 2em;
 		line-height: 2;
 	}
 
