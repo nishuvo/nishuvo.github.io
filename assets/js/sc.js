@@ -83,21 +83,6 @@ $('.clickedNav').click(function() {
   $('.navbar-collapse').collapse('hide');
 });
 
-
-// block not completed
-// contact form validator
-function validateName() {
-  let name = document.getElementById('leadName').value;
-
-  if (name.length == 0) {
-    producePrompt('Name is Required')
-    return false;
-  }
-}
-
-// end of block not completed
-
-
 // contact form actions (require jQuery validator)
 // This requires jQuery and jQuery Validation Plugin (https://jqueryvalidation.org/)
 
@@ -108,7 +93,7 @@ $( "#contactform" ).validate({
     },
     email: {
       required: true,
-email: true
+      email: true
     }
   },
    submitHandler: function(form) {
