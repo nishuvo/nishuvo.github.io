@@ -8,7 +8,6 @@
   <meta name="keywords" content="web,app,software,html5,psd to html,JavaScript,wordpress,php,unity,virtual,augmented,reality,developer,programmer,freelancer">
   <meta name="author" content="Nazmul Shuvo">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="referrer" content="origin" />
   <title>NISHUVO | Code for living </title>
   <!-- imported fonts from google font -->
   <link href="https://fonts.googleapis.com/css?family=Montserrat:500,700|Open+Sans:300,400" rel="stylesheet">
@@ -343,7 +342,7 @@
               <label for="name">Your Name</label>
               <input id="leadName" type="text" name="name" placeholder="Your name" required>
               <label for="_replyto" id="email">Your email</label>
-              <input type="email" name="_replyto" placeholder="Your email" required>
+              <input id="email" type="email" name="_replyto" placeholder="Your email" required>
               <input type="hidden" name="_subject" value="Website contact" />
               <label for="message">Message or Queries</label>
               <textarea name="message" placeholder="Your message" id="message" required></textarea>
@@ -381,13 +380,12 @@
   <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
   <!-- custom css for interactivity -->
   <script src="assets/js/sc.js"></script>
-
+  <!-- enabling the animate on scroll laibrary -->
   <script>
     $(function() {
       AOS.init();
     });
   </script>
-
 
 </body>
 

@@ -86,7 +86,7 @@ $('.clickedNav').click(function() {
 // contact form actions (require jQuery validator)
 // This requires jQuery and jQuery Validation Plugin (https://jqueryvalidation.org/)
 
-$( "#contactform" ).validate({
+$("#contactform").validate({
   rules: {
     name: {
       required: true
@@ -96,36 +96,30 @@ $( "#contactform" ).validate({
       email: true
     }
   },
-   submitHandler: function(form) {
-        var form = $("#contactform"); // contact form
-        var submitButton = $("#contactform--submit");  // submit button
-        var response = $('#response'); // alert div for show alert message
+  submitHandler: function(form) {
+    var form = $("#contactform");
+    var submitButton = $("#submit");
+    var response = $('#response');
     $.ajax({
-
-      // url: "//formspree.io/testemail@test.com", //local
-      url: "//formspree.io/nisgeek@gmail.com", //live
       method: "POST",
-      data:  $("#contactform").serialize(),
+      url: "//formspree.io/nisgeek@gmail.com",
+      data: $("#contactform").serialize(),
       dataType: "json",
 
       beforeSend: function() {
-        response.text('Sending....'); // change response text
+        response.text('Sending....');
       },
       success: function(data) {
-        response.html('<i class="fas fa-check"></i> Message sent').fadeIn(); // fade in response data
-        form.trigger('reset'); // reset form
+        response.html('<i class="fas fa-check"></i> Message sent').fadeIn();
+        form.trigger('reset');
       },
       error: function(e) {
         console.log(e);
-        response.text('There was an error!'); // change response text
+        response.text('There was an error!');
       }
     });
-
-}// end submit handler
+  }
 });
-
-
-
 
 // get current year dynamically
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
