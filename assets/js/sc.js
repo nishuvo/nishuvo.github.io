@@ -102,7 +102,7 @@ $("#contactform").validate({
     var response = $('#response');
     $.ajax({
       method: "POST",
-      url: "https://formspree.io/nisgeek@gmail.com",
+      url: "//formspree.io/nisgeek@gmail.com",
       data: $("#contactform").serialize(),
       dataType: "json",
 
