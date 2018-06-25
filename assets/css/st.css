@@ -509,6 +509,12 @@ input:active, textarea:active{
   box-shadow: 2px 2px 2px #ffad39;
 }
 
+input, textarea,
+input:focus, textarea:focus,
+input:active, textarea:active{
+  outline: none;
+}
+
 input{
   height: 50px;
   padding: 5px 15px;
