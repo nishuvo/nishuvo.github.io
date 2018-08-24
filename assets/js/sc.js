@@ -77,15 +77,11 @@ function onScroll(event) {
     }
   });
 }
-
 // disapear navigation on mobile after click
 $('.clickedNav').click(function() {
   $('.navbar-collapse').collapse('hide');
 });
-
 // contact form actions (require jQuery validator)
-// This requires jQuery and jQuery Validation Plugin (https://jqueryvalidation.org/)
-
 $("#contactform").validate({
   rules: {
     name: {
@@ -120,6 +116,5 @@ $("#contactform").validate({
     });
   }
 });
-
 // get current year dynamically
 document.getElementById("currentYear").innerHTML = new Date().getFullYear();
